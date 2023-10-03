@@ -111,6 +111,9 @@
     font-size: 1.2rem;
   }
   .secondaryText{
-    color: rgb(155, 243, 243)
+    /* color: rgb(155, 243, 243); */
+    font-family: sans-serif;
+    color: cyan
+    
   }
 }

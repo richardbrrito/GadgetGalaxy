@@ -13,32 +13,31 @@ const Header = () => {
                         GadgetGalaxy 
                     </h1>
                     <div className= "search-bar">
-                            <input type = "text" placeholder="Big mouth"/>
+                            <input type = "text" placeholder="Search any product"/>
                     </div>
                     {/* ${}is string interpolation and otar bhitore conditional statement */}
 
                    
                     
-                    <div className="h-menu secondaryText">
+                    <div className="h-menu ">
                         
                         {/* <DropdownMenu options={dropdownOptions} /> */}
-                        <div className = "menu-trigger secondaryText" onClick={()=>{setOpen(!open)}}>
-                        <h3 >Products</h3>
-                        <div className={`dropdown-menu ${open? 'active' : 'inactive'}` }>
-                            <ul>
-                               <DropdownItem text = {"Laptop"}/>
-                               <DropdownItem text = {"mobile"}/>
-                            
-                            </ul>
-
+                        <div className="menu-trigger" onClick={() => setOpen(!open)}>
+                            <h3>Products</h3>
+                            <div className={`dropdown-menu ${open ? 'active' : 'inactive'}`}>
+                                 <ul>
+                                    <DropdownItem text={"Laptop"} />
+                                    <DropdownItem text={"Mobile"} />
+                                    <DropdownItem text={"Accessories"} />
+                                </ul>
+                            </div>
                         </div>
-                    </div>
 
                         <h3>
-                            Stuffs
+                            Contact Us
                         </h3>
                         <h3>
-                            Stuffs
+                            Shopping Cart
                         </h3>
                         
                     </div>
