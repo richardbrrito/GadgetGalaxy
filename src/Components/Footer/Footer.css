@@ -13,19 +13,5 @@
     padding: 10px 20px;
   }
   
-  .h-menu{
   
-      display: flex;
-      gap: 15px;
-  }
-  .h-menu a{
-    text-decoration:none;
-    color: purple;
-    padding: 5px 10px;
-    transition: color 0.3s;
-  }
-  .h-menu a:hover{
-    color: blue;
-  
-  }
   

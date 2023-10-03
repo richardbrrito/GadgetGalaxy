@@ -9,31 +9,30 @@ const Header = () => {
     return(
             <section className="h-wrapper">
                 <div className="h-container">
-                    <h1>
+                    <h1 className='primaryText'>
                         GadgetGalaxy 
                     </h1>
                     <div className= "search-bar">
-                            <input type = "text" placeholder="Search" />
+                            <input type = "text" placeholder="Big mouth"/>
                     </div>
                     {/* ${}is string interpolation and otar bhitore conditional statement */}
 
-                    <div className = "menu-trigger" onClick={()=>{setOpen(!open)}}>
+                   
+                    
+                    <div className="h-menu secondaryText">
+                        
+                        {/* <DropdownMenu options={dropdownOptions} /> */}
+                        <div className = "menu-trigger secondaryText" onClick={()=>{setOpen(!open)}}>
                         <h3 >Products</h3>
                         <div className={`dropdown-menu ${open? 'active' : 'inactive'}` }>
-                        <ul>
-                            <DropdownItem text = {"Laptop"}/>
-                            <DropdownItem text = {"mobile"}/>
+                            <ul>
+                               <DropdownItem text = {"Laptop"}/>
+                               <DropdownItem text = {"mobile"}/>
                             
-                        </ul>
+                            </ul>
 
+                        </div>
                     </div>
-                    </div>
-                    
-                    <div className="h-menu">
-                        <h3>
-                            Products
-                        </h3>
-                        {/* <DropdownMenu options={dropdownOptions} /> */}
 
                         <h3>
                             Stuffs
