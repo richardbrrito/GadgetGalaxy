@@ -46,16 +46,19 @@
   background-color: rgb(0, 0, 0);
   padding: 5px 10px;
   width: 120px;
+  z-index: 100;
   }
 
   .dropdown-menu.active{
     opacity: 1;
+    z-index: 100;
     visibility: visible;
     transform: translateY(0);
     transition: var(--speed) ease;
   }
   .menu-trigger:hover .dropdown-menu {
     opacity: 1;
+    z-index: 100;
     visibility: visible;
     transform: translateY(0);
     transition: var(--speed) ease;
@@ -63,6 +66,7 @@
   
   .dropdown-menu.inactive{
     opacity: 0;
+    z-index: 100;
     visibility: hidden;
     transform: translateY(-20px);
     transition: var(--speed) ease;
@@ -80,12 +84,14 @@
   }
 
   .dropdownItem{
+    z-index: 100;
     display: flex;
     margin: 10px auto;
   }
 
   /* menu div */
   .h-menu{
+    z-index: 100;
     font-style: italic;
     font-weight: bold;
     display: flex;
