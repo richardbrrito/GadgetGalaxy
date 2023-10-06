@@ -1,19 +1,19 @@
 [
   {
     "name": "ASUS ROG Laptop",
-    "price": "$1200",
+    "price": "1200",
     "detail": "Ram ",
     "image": "./r1.png"
   },
   {
     "name": "Iphone 15",
-    "price": "$1000",
+    "price": "1000",
     "detail": "New Camera",
     "image": "./r2.png"
   },
   {
     "name": "Samsung Galaxy",
-    "price": "$700",
+    "price": "700",
     "detail": "Nice Phone",
     "image": "./r3.png"
   },
@@ -25,13 +25,13 @@
   },
   {
     "name": "Lenovo Legion",
-    "price": "$985",
+    "price": "985",
     "detail": "RAM",
     "image": "./r2.png"
   },
   {
     "name": "Google Pixel",
-    "price": "$545",
+    "price": "545",
     "detail": "Good storage",
     "image": "./r3.png"
   }
