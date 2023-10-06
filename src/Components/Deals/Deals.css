@@ -19,10 +19,14 @@
     
 }
 .d-card>img{
-    width: 100%;
+    width: 200px;
+    /* height: 200px; */
+    
     max-width: 28rem;
 }
+
 .d-card>:nth-child(2){
+    scale: 1.2;
     font-size: 1.2rem;
     font-weight: 600;
 }

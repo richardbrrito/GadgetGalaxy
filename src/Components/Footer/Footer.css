@@ -4,7 +4,7 @@
   border-top: 2px solid;
   /* border-color: linear-gradient(#070306, #670d69); */
   padding: 15px;
-  background-color: linear-gradient(#070306, #670d69); /* Black background */
+  background-color: black; /* Black background */
   color: #fff; /* White text */
   border: 0.2px solid transparent; /* Adjust border width as needed */
   animation: borderGlow 8s linear infinite;
