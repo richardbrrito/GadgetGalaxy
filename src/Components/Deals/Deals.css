@@ -19,11 +19,16 @@
     
 }
 .d-card>img{
-    width: 200px;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
     /* height: 200px; */
     
-    max-width: 28rem;
+    /* max-width: 15rem; */
 }
+/* Apply styles to the first two slides */
+
+
 
 .d-card>:nth-child(2){
     scale: 1.2;
