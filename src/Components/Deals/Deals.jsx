@@ -11,7 +11,6 @@ const Deals = () => {
             <div className="paddings innerWidth d-container">
                 <div className="d-head flexColStart">
                     <span className = "orangeText">Deals</span>
-                    
                 </div>
                 <Swiper
                 slidesPerView={2}
