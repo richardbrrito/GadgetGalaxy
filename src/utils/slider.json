@@ -1,38 +1,38 @@
 [
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "ASUS ROG Laptop",
+    "price": "1200",
+    "detail": "Ram ",
+    "image": "src/assets/ProductImages/Laptop_1.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Iphone 15",
+    "price": "1000",
+    "detail": "New Camera",
+    "image": "src/assets/ProductImages/Laptop_2.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Samsung Galaxy",
+    "price": "700",
+    "detail": "Nice Phone",
+    "image": "src/assets/ProductImages/Phone_1.png"
   },
   {
-    "name": "Aliva Priva Jardin",
-    "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "name": "Headphone",
+    "price": "50",
+    "detail": "Sounds Nice",
+    "image": "src/assets/ProductImages/Phone_2.png"
   },
   {
-    "name": "Asatti Garden City",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "name": "Lenovo Legion",
+    "price": "985",
+    "detail": "RAM",
+    "image": "src/assets/ProductImages/Headphones_1.png"
   },
   {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "name": "Google Pixel",
+    "price": "545",
+    "detail": "Good storage",
+    "image": "src/assets/ProductImages/Headphones_2.png"
   }
 ]
