@@ -39,7 +39,7 @@
 .dropdown-menu{
   position: absolute;
   /* right: 0; */
-  top: 45px;
+  top: 100%;
   border: 3px solid;
   border-radius: 2px;
   border-color: blueviolet;
