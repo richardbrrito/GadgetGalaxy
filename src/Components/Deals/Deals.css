@@ -31,7 +31,7 @@
 
 
 .d-card>:nth-child(2){
-    scale: 1.2;
+    transform: scale(1.2);
     font-size: 1.2rem;
     font-weight: 600;
 }
@@ -43,7 +43,7 @@
     width: 15rem;
 }
 .d-card:hover{
-    scale: 1.025;
+    transform:scale(1.025);
     cursor: pointer;
     background: linear-gradient(
         180deg, 
@@ -83,7 +83,7 @@
 
 }
 .d-buttons-container:hover{
-    scale: 1.2;
+    transform:scale(1.2);
     cursor: pointer;
     background: linear-gradient(
         180deg, 
