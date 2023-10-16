@@ -3,6 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    <section className= "f-wrapper">
     <footer className="footer">
       <div className="footer__logo">
         {/* path to logo */}
@@ -19,6 +20,7 @@ const Footer = () => {
         </p>
       </div>
     </footer>
+    </section>
   );
 };
 

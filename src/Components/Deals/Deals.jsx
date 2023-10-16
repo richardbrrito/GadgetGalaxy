@@ -20,7 +20,7 @@ const Deals = () => {
                     <SliderButtons/>
                     {
                         data.map((card, i) => (
-                            <SwiperSlide key={i}>
+                            <SwiperSlide key={i} className = {`slide-${i}`}>
                                 <div className="flexColStart d-card">
                                     <img src={card.image} alt="home" />
                                     <span className="secondaryText d-price">
