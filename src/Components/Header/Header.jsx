@@ -24,10 +24,10 @@ const Header = () => {
             <h3>Products</h3>
             <div className={`dropdown-menu ${open ? "active" : "inactive"}`}>
               <ul>
-                <Link to="/products">Products</Link>
-                <DropdownItem text={"Laptop"} />
-                <DropdownItem text={"Mobile"} />
-                <DropdownItem text={"Accessories"} />
+                <Link to="/products"><DropdownItem text={"Products"} /></Link>
+                <Link to="/laptops"><DropdownItem text={"Laptop"} /> </Link>
+                <Link to="/phones"><DropdownItem text={"Phones"} /> </Link>
+                <Link to="/accessories"><DropdownItem text={"Accessories"} /> </Link>
               </ul>
             </div>
           </div>
