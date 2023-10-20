@@ -36,6 +36,10 @@
   transform: scale(1.2) rotate(-180deg); /* Grow logo when hovered */
 }
 
+.logotext-wrapper {
+  margin-top: 1rem;
+}
+
 .logo-text {
   margin-left: 10px; /* Space between logo and text */
   flex: display;
@@ -47,6 +51,14 @@
 .footer__content p {
   display: flexbox;
   margin-top: 1rem;
+}
+
+.footer__content a {
+  color: rgb(220, 28, 169);
+}
+
+.footer__content a:not(:first-child) {
+  margin-left: 0.2rem;
 }
 
 /* border-image-source sets the image to be used as the border. 
