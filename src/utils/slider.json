@@ -9,7 +9,7 @@
     "name": "Iphone 15",
     "price": "1000",
     "detail": "New Camera",
-    "image": "src/assets/ProductImages/Phone_2.png"
+    "image": "src/assets/ProductImages/Laptop_2.png"
   },
   {
     "name": "Samsung Galaxy",
@@ -21,13 +21,13 @@
     "name": "Headphone",
     "price": "50",
     "detail": "Sounds Nice",
-    "image": "src/assets/ProductImages/Headphones_1.png"
+    "image": "src/assets/ProductImages/Phone_2.png"
   },
   {
     "name": "Lenovo Legion",
     "price": "985",
     "detail": "RAM",
-    "image": "src/assets/ProductImages/Laptop_2.png"
+    "image": "src/assets/ProductImages/Headphones_1.png"
   },
   {
     "name": "Google Pixel",
