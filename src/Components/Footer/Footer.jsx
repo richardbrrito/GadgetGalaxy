@@ -5,12 +5,7 @@ const Footer = () => {
   return (
     <section className= "f-wrapper">
     <footer className="footer">
-      <div className="footer__logo">
-        {/* path to logo */}
-        <img src="src/assets/gg_Logo.PNG" alt="Logo" />
-       
-      </div>
-      <span className="primaryText">Gadget Galaxy</span> {/* Logo text */}
+      <span className="primaryText" id="footerLogo">GadgetGalaxy</span> {/* Logo text */}
       <div className="footer__content">
         <p>© 2023 Gadget Galaxy. All rights reserved.</p>
         <p>
