@@ -1,26 +1,17 @@
-.f-wrapper{
-  background-color: linear-gradient(#070306, #670d69);
-  border: 10px solid blueviolet ;
-  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
-  height: 70px;
-  border: 1px solid;
-  z-index: 100;
-}
 .footer {
   display: flex;
   justify-content: space-between;
   border-top: 2px solid;
   /* border-color: linear-gradient(#070306, #670d69); */
-  padding: 15px;
+  padding: 10px;
   background-color: black; /* Black background */
   color: #fff; /* White text */
   border: 2px solid rgb(220, 28, 169); /* Adjust border width as needed */
-  
 }
-
- 
-  
-
+.footerLogo {
+  align-items: left;
+  justify-content: left;
+}
 
 .footer__logo {
   display: flex;
@@ -39,14 +30,13 @@
 .logo-text {
   margin-left: 10px; /* Space between logo and text */
   flex: display;
-  
+
   align-items: flex-start;
-  
 }
 
 .footer__content p {
   display: flexbox;
-  margin-top: 1rem;
+  margin: 1px;
 }
 
 /* border-image-source sets the image to be used as the border. 
