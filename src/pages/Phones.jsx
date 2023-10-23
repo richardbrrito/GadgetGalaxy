@@ -4,12 +4,14 @@ import MenuItem from '../Components/Products/MenuItem';
 import '../styles/Phones.css';
 
 function Laptops() {
+
+  const phoneItems = MenuList.filter(menuItem => menuItem.type === 'Phone');
   return (
     <div className="LaptopContainer">
       <h1 className="menuTitle">Phones</h1>
 
       <div className="menuList">
-        {MenuList.map((menuItem, key) => {
+        {phoneItems.map((menuItem, key) => {
           return (
             <MenuItem
               key={key}
