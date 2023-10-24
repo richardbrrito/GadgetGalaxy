@@ -6,7 +6,7 @@ import '../styles/Accessories.css';
 function Laptops() {
   const accItems = MenuList.filter(menuItem => menuItem.type === 'Assc');
   return (
-    <div className="LaptopContainer">
+    <div className="menu">
       <h1 className="menuTitle">Accessories</h1>
 
       <div className="menuList">
