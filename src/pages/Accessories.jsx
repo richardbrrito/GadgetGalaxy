@@ -1,7 +1,7 @@
 import React from 'react';
 import { MenuList } from '../utils/MenuList';
 import MenuItem from '../Components/Products/MenuItem';
-import '../styles/Accessories.css';
+import '../Components/Products/Menu.css';
 
 function Laptops() {
   const accItems = MenuList.filter(menuItem => menuItem.type === 'Assc');
