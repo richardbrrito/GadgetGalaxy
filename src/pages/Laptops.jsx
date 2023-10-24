@@ -1,13 +1,13 @@
 import React from 'react';
 import { MenuList } from '../utils/MenuList';
 import MenuItem from '../Components/Products/MenuItem';
-import '../Components/Laptop/Laptops.css';
+import '../Components/Products/Menu.css';
 
 function Laptops() {
 
   const laptopItems = MenuList.filter(menuItem => menuItem.type === 'Laptop');
   return (
-    <div className="LaptopContainer">
+    <div className="menu">
       <h1 className="menuTitle">Laptops</h1>
 
       <div className="menuList">
