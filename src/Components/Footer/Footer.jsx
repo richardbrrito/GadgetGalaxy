@@ -1,22 +1,21 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import './Footer.css';
 
-const Footer = () => {
+function Footer() {
   return (
-    <section className= "f-wrapper">
-    <footer className="footer">
-      <span className="primaryText" id="footerLogo">GadgetGalaxy</span> {/* Logo text */}
-      <div className="footer__content">
-        <p>© 2023 Gadget Galaxy. All rights reserved.</p>
-        <p>
-          <a href="/privacy-policy">Privacy Policy</a> |
-          <a href="/terms-of-service"> Terms of Service</a> |
-          <a href="/contact-us"> Contact Us</a>
-        </p>
+    <div className="footer">
+      <div className="socialMedia">
+        <a href="https://github.com/aulindoraiyan/Gadget-Galaxy">
+          <GitHubIcon />
+          <p>/src</p>
+        </a>
       </div>
-    </footer>
-    </section>
+      <div className="contactUs"><a href="/Contact">Contact Us</a></div>
+      <p> &copy; 2023 GadgetGalaxy </p>
+    </div>
   );
-};
+}
 
 export default Footer;
