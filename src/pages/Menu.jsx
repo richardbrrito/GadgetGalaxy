@@ -1,7 +1,7 @@
 import React from 'react';
-import { MenuList } from '../utils/MenuList';
-import MenuItem from '../Components/Products/MenuItem';
-import '../Components/Products/Menu.css';
+import MenuList from "../utils/MenuList.json";
+import MenuItem from '../utils/MenuItem';
+import '../styles/Menu.css';
 
 function Menu() {
   return (

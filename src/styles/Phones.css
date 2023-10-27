@@ -42,7 +42,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    border: calc(0.2 * 10vmin) solid white; /* Add dynamic border size */
+    border: calc(0.2 * 10vmin) solid rgba(255, 255, 255, 0); /* Add dynamic border size */
     box-sizing: border-box; /* Include the border size in the image width */
   }
   

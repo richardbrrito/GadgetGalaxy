@@ -1,0 +1,226 @@
+[
+  {
+      "name": "Framework 16",
+      "price": "1200",
+      "detail": "Modular",
+      "image": "src/assets/ProductImages/Laptops/Laptop_10.png",
+      "type": "Laptop",
+      "Deal": false
+  },
+  {
+      "name": "Lenovo Legion Pro",
+      "price": "1050",
+      "detail": "16gb DDR4",
+      "image": "src/assets/ProductImages/Laptops/Laptop_2.png",
+      "type": "Laptop",
+      "Deal": false
+  },
+  {
+      "name": "Huawei MateBook",
+      "price": "1150",
+      "detail": "2-in-1 Notebook",
+      "image": "src/assets/ProductImages/Laptops/Laptop_8.png",
+      "type": "Laptop",
+      "Deal": false
+  },
+  {
+      "name": "HP EliteBook",
+      "price": "1500",
+      "detail": "16gb DDR4",
+      "image": "src/assets/ProductImages/Laptops/Laptop_7.png",
+      "type": "Laptop",
+      "Deal": false
+  },
+  {
+      "name": "Microsoft Surface",
+      "price": "1145",
+      "detail": "14.4\" QHD Touchscreen",
+      "image": "src/assets/ProductImages/Laptops/Laptop_6.png",
+      "type": "Laptop",
+      "Deal": false
+  },
+  {
+      "name": "Asus ZenBook",
+      "price": "1200",
+      "detail": "Intel Core i7",
+      "image": "src/assets/ProductImages/Laptops/Laptop_5.png",
+      "type": "Laptop",
+      "Deal": false
+  },
+  {
+      "name": "ACER NITRO 5",
+      "price": "1200",
+      "detail": "15.6 inch",
+      "image": "src/assets/ProductImages/Laptops/Laptop_4.png",
+      "type": "Laptop",
+      "Deal": true
+  },
+  {
+      "name": "Dell XPS 13",
+      "price": "1700",
+      "detail": "Tele 4k Touchscreen",
+      "image": "src/assets/ProductImages/Laptops/Laptop_3.png",
+      "type": "Laptop",
+      "Deal": false
+  },
+  {
+      "name": "ASUS ROG Laptop",
+      "price": "1400",
+      "detail": "Ram ",
+      "image": "src/assets/ProductImages/Laptops/Laptop_2.png",
+      "type": "Laptop",
+      "Deal": true
+  },
+  {
+      "name": "HP Spectre",
+      "price": "985",
+      "detail": "RAM",
+      "image": "src/assets/ProductImages/Laptops/Laptop_1.png",
+      "type": "Laptop",
+      "Deal": false
+  },
+  {
+      "name": "Headphones",
+      "price": "50",
+      "detail": "Sounds Nice",
+      "image": "src/assets/ProductImages/Headphones/Headphones_1.png",
+      "type": "Accessory",
+      "Deal": false
+  },
+  {
+      "name": "Bose Headphone",
+      "price": "245",
+      "detail": "Heavy Basse",
+      "image": "src/assets/ProductImages/Headphones/Headphones_2.png",
+      "type": "Accessory",
+      "Deal": false
+  },
+  {
+      "name": "AirPods Max",
+      "price": "549",
+      "detail": "High-Fidelity Audio",
+      "image": "src/assets/ProductImages/Headphones/AirpodsMax.png",
+      "type": "Accessory",
+      "Deal": true
+  },
+  {
+      "name": "Beats Studio Pro",
+      "price": "299",
+      "detail": "Noise Cancelling",
+      "image": "src/assets/ProductImages/Headphones/BeatsStudioPro.png",
+      "type": "Accessory",
+      "Deal": false
+  },
+  {
+      "name": "JBL Live 660NC",
+      "price": "199",
+      "detail": "Active Noise Cancelling",
+      "image": "src/assets/ProductImages/Headphones/JBLlive660NC.png",
+      "type": "Accessory",
+      "Deal": false
+  },
+  {
+      "name": "Jlab Studio Pro",
+      "price": "79",
+      "detail": "Wireless On-Ear",
+      "image": "src/assets/ProductImages/Headphones/JlabStudioPro.png",
+      "type": "Accessory",
+      "Deal": false
+  },
+  {
+      "name": "Logitech Zone Vibe 100",
+      "price": "89",
+      "detail": "Wired Headset",
+      "image": "src/assets/ProductImages/Headphones/LogiZoneVibe100.png",
+      "type": "Accessory",
+      "Deal": false
+  },
+  {
+      "name": "SkullCandy Hush",
+      "price": "99",
+      "detail": "Over-Ear Wireless",
+      "image": "src/assets/ProductImages/Headphones/SkullCandyHush.png",
+      "type": "Accessory",
+      "Deal": false
+  },
+  {
+      "name": "Sony WH-1000XM4B",
+      "price": "348",
+      "detail": "Noise Cancelling",
+      "image": "src/assets/ProductImages/Headphones/SonyWH1000XM4B.png",
+      "type": "Accessory",
+      "Deal": true
+  },
+  {
+      "name": "BLU G53",
+      "price": "179",
+      "detail": "Smartphone",
+      "image": "src/assets/ProductImages/Phones/Blu-G53.png",
+      "type": "Phone",
+      "Deal": false
+  },
+  {
+      "name": "Boost Moto G",
+      "price": "149",
+      "detail": "Smartphone",
+      "image": "src/assets/ProductImages/Phones/BoostMotoG.png",
+      "type": "Phone",
+      "Deal": false
+  },
+  {
+      "name": "Galaxy A03",
+      "price": "129",
+      "detail": "Smartphone",
+      "image": "src/assets/ProductImages/Phones/GalaxyA03.png",
+      "type": "Phone",
+      "Deal": false
+  },
+  {
+      "name": "Motorolla G Plus",
+      "price": "229",
+      "detail": "Smartphone",
+      "image": "src/assets/ProductImages/Phones/MotorollaGPlus.png",
+      "type": "Phone",
+      "Deal": false
+  },
+  {
+      "name": "OneNote",
+      "price": "279",
+      "detail": "Smartphone",
+      "image": "src/assets/ProductImages/Phones/OneNote.png",
+      "type": "Phone",
+      "Deal": false
+  },
+  {
+      "name": "Samsung Flip Z",
+      "price": "1199",
+      "detail": "Foldable Smartphone",
+      "image": "src/assets/ProductImages/Phones/SamsungFlipZ.png",
+      "type": "Phone",
+      "Deal": false
+  },
+  {
+      "name": "Pixel 7 Pro",
+      "price": "999",
+      "detail": "Google Smartphone",
+      "image": "src/assets/ProductImages/Phones/Pixel7Pro.png",
+      "type": "Phone",
+      "Deal": false
+  },
+  {
+      "name": "iPhone 15",
+      "price": "1000",
+      "detail": "New Camera",
+      "image": "src/assets/ProductImages/Phones/iphone15.png",
+      "type": "Phone",
+      "Deal": true
+  },
+  {
+      "name": "Samsung Galaxy",
+      "price": "900",
+      "detail": "Nice Phone",
+      "image": "src/assets/ProductImages/Phones/SamsungGzFold.png",
+      "type": "Phone",
+      "Deal": true
+  }
+]
