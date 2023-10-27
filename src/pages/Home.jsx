@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import BannerImage from '../assets/pixelGalaxy.jpg';
 import '../styles/Home.css';
 import Deals from "../Components/Deals/Deals";
+import Contact from "../Components/Contact/Contact";
 
 function Home() {
   return (
@@ -16,6 +17,9 @@ function Home() {
       </div>
 
       <div className='dealsContainer'><Deals /></div>
+      <div>
+         <Contact />
+      </div>
       
     </div>
     
