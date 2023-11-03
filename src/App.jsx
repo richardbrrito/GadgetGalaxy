@@ -6,6 +6,7 @@ import Laptops from "./pages/Laptops";
 import Phones from "./pages/Phones";
 import Accessories from "./pages/Accessories";
 
+
 import ScrollToTop from "./utils/ScrollToTop";
 
 
