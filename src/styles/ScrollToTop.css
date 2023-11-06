@@ -1,0 +1,33 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top:hover {
+    background: #ccc;
+  }
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top:hover {
+    background: #ccc;
+  }
+    
