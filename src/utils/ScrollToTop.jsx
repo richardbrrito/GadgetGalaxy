@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import '../styles/ScrollToTop.css';
+import DoubleArrowUp from '@mui/icons-material/KeyboardDoubleArrowUp';
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -39,7 +40,7 @@ const ScrollToTopButton = () => {
   return (
     isVisible && (
       <button onClick={scrollToTop} className="scroll-to-top">
-        ↑
+        <DoubleArrowUp />
       </button>
     )
   );
