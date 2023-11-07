@@ -5,7 +5,8 @@
       "detail": "Modular",
       "image": "src/assets/ProductImages/Laptops/Laptop_10.png",
       "type": "Laptop",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Laptops"
   },
   {
       "name": "Lenovo Legion Pro",
@@ -13,7 +14,8 @@
       "detail": "16gb DDR4",
       "image": "src/assets/ProductImages/Laptops/Laptop_2.png",
       "type": "Laptop",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Laptops"
   },
   {
       "name": "Huawei MateBook",
@@ -21,7 +23,8 @@
       "detail": "2-in-1 Notebook",
       "image": "src/assets/ProductImages/Laptops/Laptop_8.png",
       "type": "Laptop",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Laptops"
   },
   {
       "name": "HP EliteBook",
@@ -29,7 +32,8 @@
       "detail": "16gb DDR4",
       "image": "src/assets/ProductImages/Laptops/Laptop_7.png",
       "type": "Laptop",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Laptops"
   },
   {
       "name": "Microsoft Surface",
@@ -37,7 +41,8 @@
       "detail": "14.4\" QHD Touchscreen",
       "image": "src/assets/ProductImages/Laptops/Laptop_6.png",
       "type": "Laptop",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Laptops"
   },
   {
       "name": "Asus ZenBook",
@@ -45,7 +50,8 @@
       "detail": "Intel Core i7",
       "image": "src/assets/ProductImages/Laptops/Laptop_5.png",
       "type": "Laptop",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Laptops"
   },
   {
       "name": "ACER NITRO 5",
@@ -53,7 +59,8 @@
       "detail": "15.6 inch",
       "image": "src/assets/ProductImages/Laptops/Laptop_4.png",
       "type": "Laptop",
-      "Deal": true
+      "Deal": true,
+      "Page": "/Laptops"
   },
   {
       "name": "Dell XPS 13",
@@ -61,7 +68,8 @@
       "detail": "Tele 4k Touchscreen",
       "image": "src/assets/ProductImages/Laptops/Laptop_3.png",
       "type": "Laptop",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Laptops"
   },
   {
       "name": "ASUS ROG Laptop",
@@ -69,7 +77,8 @@
       "detail": "Ram ",
       "image": "src/assets/ProductImages/Laptops/Laptop_2.png",
       "type": "Laptop",
-      "Deal": true
+      "Deal": true,
+      "Page": "/Laptops"
   },
   {
       "name": "HP Spectre",
@@ -77,7 +86,8 @@
       "detail": "RAM",
       "image": "src/assets/ProductImages/Laptops/Laptop_1.png",
       "type": "Laptop",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Laptops"
   },
   {
       "name": "Headphones",
@@ -85,7 +95,8 @@
       "detail": "Sounds Nice",
       "image": "src/assets/ProductImages/Headphones/Headphones_1.png",
       "type": "Accessory",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Accessories"
   },
   {
       "name": "Bose Headphone",
@@ -93,7 +104,8 @@
       "detail": "Heavy Basse",
       "image": "src/assets/ProductImages/Headphones/Headphones_2.png",
       "type": "Accessory",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Accessories"
   },
   {
       "name": "AirPods Max",
@@ -101,7 +113,8 @@
       "detail": "High-Fidelity Audio",
       "image": "src/assets/ProductImages/Headphones/AirpodsMax.png",
       "type": "Accessory",
-      "Deal": true
+      "Deal": true,
+      "Page": "/Accessories"
   },
   {
       "name": "Beats Studio Pro",
@@ -109,7 +122,8 @@
       "detail": "Noise Cancelling",
       "image": "src/assets/ProductImages/Headphones/BeatsStudioPro.png",
       "type": "Accessory",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Accessories"
   },
   {
       "name": "JBL Live 660NC",
@@ -117,7 +131,8 @@
       "detail": "Active Noise Cancelling",
       "image": "src/assets/ProductImages/Headphones/JBLlive660NC.png",
       "type": "Accessory",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Accessories"
   },
   {
       "name": "Jlab Studio Pro",
@@ -125,7 +140,8 @@
       "detail": "Wireless On-Ear",
       "image": "src/assets/ProductImages/Headphones/JlabStudioPro.png",
       "type": "Accessory",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Accessories"
   },
   {
       "name": "Logitech Zone Vibe 100",
@@ -133,7 +149,8 @@
       "detail": "Wired Headset",
       "image": "src/assets/ProductImages/Headphones/LogiZoneVibe100.png",
       "type": "Accessory",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Accessories"
   },
   {
       "name": "SkullCandy Hush",
@@ -141,7 +158,8 @@
       "detail": "Over-Ear Wireless",
       "image": "src/assets/ProductImages/Headphones/SkullCandyHush.png",
       "type": "Accessory",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Accessories"
   },
   {
       "name": "Sony WH-1000XM4B",
@@ -149,7 +167,8 @@
       "detail": "Noise Cancelling",
       "image": "src/assets/ProductImages/Headphones/SonyWH1000XM4B.png",
       "type": "Accessory",
-      "Deal": true
+      "Deal": true,
+      "Page": "/Accessories"
   },
   {
       "name": "BLU G53",
@@ -157,7 +176,8 @@
       "detail": "Smartphone",
       "image": "src/assets/ProductImages/Phones/Blu-G53.png",
       "type": "Phone",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Phones"
   },
   {
       "name": "Boost Moto G",
@@ -165,7 +185,8 @@
       "detail": "Smartphone",
       "image": "src/assets/ProductImages/Phones/BoostMotoG.png",
       "type": "Phone",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Phones"
   },
   {
       "name": "Galaxy A03",
@@ -173,7 +194,8 @@
       "detail": "Smartphone",
       "image": "src/assets/ProductImages/Phones/GalaxyA03.png",
       "type": "Phone",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Phones"
   },
   {
       "name": "Motorolla G Plus",
@@ -181,7 +203,8 @@
       "detail": "Smartphone",
       "image": "src/assets/ProductImages/Phones/MotorollaGPlus.png",
       "type": "Phone",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Phones"
   },
   {
       "name": "OneNote",
@@ -189,7 +212,8 @@
       "detail": "Smartphone",
       "image": "src/assets/ProductImages/Phones/OneNote.png",
       "type": "Phone",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Phones"
   },
   {
       "name": "Samsung Flip Z",
@@ -197,7 +221,8 @@
       "detail": "Foldable Smartphone",
       "image": "src/assets/ProductImages/Phones/SamsungFlipZ.png",
       "type": "Phone",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Phones"
   },
   {
       "name": "Pixel 7 Pro",
@@ -205,7 +230,8 @@
       "detail": "Google Smartphone",
       "image": "src/assets/ProductImages/Phones/Pixel7Pro.png",
       "type": "Phone",
-      "Deal": false
+      "Deal": false,
+      "Page": "/Phones"
   },
   {
       "name": "iPhone 15",
@@ -213,7 +239,8 @@
       "detail": "New Camera",
       "image": "src/assets/ProductImages/Phones/iphone15.png",
       "type": "Phone",
-      "Deal": true
+      "Deal": true,
+      "Page": "/Phones"
   },
   {
       "name": "Samsung Galaxy",
@@ -221,6 +248,7 @@
       "detail": "Nice Phone",
       "image": "src/assets/ProductImages/Phones/SamsungGzFold.png",
       "type": "Phone",
-      "Deal": true
+      "Deal": true,
+      "Page": "/Phones"
   }
 ]

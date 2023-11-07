@@ -3,6 +3,8 @@ import "./Header.css";
 // import DropdownMenu from './DropdownMenu';
 import { useState } from "react";
 import { Link } from 'react-router-dom';
+import productData from "../../utils/MenuList.json"
+import SearchIcon from "@mui/icons-material/Search"
 
 const Header = () => {
   // const dropdownOptions = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
@@ -12,10 +14,8 @@ const Header = () => {
       <div className="h-container">
       <Link to="/">
           <h1 className="primaryText">GadgetGalaxy</h1>
-        </Link>
-        <div className="search-bar">
-          <input type="text" placeholder="Search any product" />
-        </div>
+      </Link>
+      <SearchBar placeholder="Search a product" data={productData}/>
         {/* ${}is string interpolation and otar bhitore conditional statement */}
 
         <div className="h-menu ">
@@ -47,5 +47,49 @@ function DropdownItem(props) {
       <a>{props.text}</a>
     </li>
   );
+}
+
+function SearchBar({placeholder, data}) {
+  const [filteredSearch, setFilteredSearch] = useState([])
+
+  const handleFilter = (event) =>{
+    // handleFilter is turned into an eventlistener, which takes in
+    // the value of the input (searchWord) and compares it all the names in the menulist.json
+    // then returns the ones that have the same letters
+    const searchWord = event.target.value
+    const newFilter = data.filter((value)=>{
+      return value.name.toLowerCase().includes(searchWord.toLowerCase());
+    })
+    if (searchWord === ""){
+      setFilteredSearch([])
+    } else{
+      setFilteredSearch(newFilter)
+    }
+    
+  }
+  /*Result when calling the searchbar function*/
+  return (
+    <div className="search">
+      <div className="searchInput">
+        {/*Onchange event listener which detects when something is changed in the input, then as a result it calls handleFilter*/}
+        <input type="text" placeholder={placeholder} onChange={handleFilter}/>
+        <a className="searchIcon" href="/products">
+          <SearchIcon/>
+        </a>
+      </div>
+      {/* if the input is not 0, then we display all the products (searchResult)*/}
+      {filteredSearch.length != 0 &&
+        <div className="searchResult">
+          {filteredSearch.slice(0,8).map((value, key) =>{
+            return <a className="dataItem" href={value.Page}> 
+              <p>
+                {value.name}
+              </p>
+            </a>
+          })}
+        </div>
+      }
+    </div>
+  )
 }
 export default Header;
