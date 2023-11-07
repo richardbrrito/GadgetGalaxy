@@ -5,10 +5,10 @@
     height: 70px;
     border: 1px solid;
     border-color: blueviolet;
-    
   }
+
   .h-container{
-    max-width: 100vh;
+    max-width: 145vh;
     margin: auto;
     display: flex;
     justify-content:space-between;
