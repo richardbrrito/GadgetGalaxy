@@ -13,9 +13,10 @@
 
 
 .headingContainer {
-  width: auto;
-  margin-left: 30px;
-  min-height: 40vh;
+  width: 100%;
+  /* margin-left: 30px; */
+  /* min-height: 40vh; */
+  background: linear-gradient(#070306, #9f29a1);
 }
 
 .headingContainer h1 {
@@ -67,7 +68,7 @@ h1:hover {
 }
 
 .dealsContainer{
-  box-shadow: 0em -1em 1em black;
+  /* box-shadow: 0em -1em 1em black; */
 }
 
 @media only screen and (max-width: 650px) {
