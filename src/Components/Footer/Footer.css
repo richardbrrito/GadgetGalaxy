@@ -13,6 +13,12 @@
 .socialMedia {
   display: flex;
   align-items: stretch;
+  text-decoration: double;
+}
+.socialMedia svg:hover {
+  filter: drop-shadow(0 0 5px rgba(0, 0, 255, 0.5))
+  drop-shadow(0 0 10px rgba(0, 0, 255, 0.5))
+  drop-shadow(0 0 15px rgba(0, 0, 255, 0.7))
 }
 
 .socialMedia svg {

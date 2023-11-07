@@ -3,8 +3,10 @@
     overflow: hidden;
     position: relative;
     width:100%;
-    background: linear-gradient(#070306, #670d69);
+    background: linear-gradient(#9f29a1, #4718d4);
+    /* linear-gradient(#070306, ); */
     padding: 1rem;
+    
 }
 .d-head{
   margin-bottom: 2rem;  
