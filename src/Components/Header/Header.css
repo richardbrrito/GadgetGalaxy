@@ -17,8 +17,8 @@
   }
   .h-container a{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
     text-decoration: none;
   }
 
@@ -181,6 +181,7 @@ input:focus{
     cursor: pointer;
     color: rgb(140, 0, 255);
     position: relative;
+    max-height: 40px;
 }
 .h-menu :hover{
   cursor: pointer;
