@@ -3,6 +3,7 @@ import "./Header.css";
 // import DropdownMenu from './DropdownMenu';
 import { useState } from "react";
 import { Link } from 'react-router-dom';
+import logo from '../../assets/gg_Logo.png';
 
 const Header = () => {
   // const dropdownOptions = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
@@ -11,6 +12,9 @@ const Header = () => {
     <section className="h-wrapper">
       <div className="h-container">
       <Link to="/">
+          <img src={logo} 
+          aria-label=""  
+          style={{ width: '50px', height: '50px' }}/>
           <h1 className="primaryText">GadgetGalaxy</h1>
         </Link>
         <div className="search-bar">
@@ -44,7 +48,7 @@ function DropdownItem(props) {
   return (
     <li className="dropdownItem">
       {/* <img src = {props.img}></img> */}
-      <a>{props.text}</a>
+      {props.text}
     </li>
   );
 }

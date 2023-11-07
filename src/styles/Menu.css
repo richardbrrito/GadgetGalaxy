@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 .menu .menuTitle {
-  font-family: cursive;
+  font-family: Trebuchet MS, sans-serif;
   font-size: 60px;
 }
 
@@ -27,9 +27,11 @@
   height: 350px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  color: black;
+  background: rgba(169, 169, 169, 0.523);
 }
 .menuItem:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.8);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
@@ -50,6 +52,13 @@
 .menuItem h1{
   text-align: right;
   border: 10px solid transparent;
+
+  /* text-shadow: rgba(144, 144, 144, 0.804); */
+}
+
+.menuItem .prodDetails{
+  background-color: transparent;
+
 }
 .menuItem h2,
 .menuItem p {

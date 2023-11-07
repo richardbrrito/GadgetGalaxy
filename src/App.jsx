@@ -6,6 +6,7 @@ import Laptops from "./pages/Laptops";
 import Phones from "./pages/Phones";
 import Accessories from "./pages/Accessories";
 
+ 
 import ScrollToTop from "./utils/ScrollToTop";
 
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToTop>
+        
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
@@ -26,7 +27,7 @@ function App() {
             <Route path="/accessories" element={<Accessories />} />
           </Routes>
           <Footer />
-        </ScrollToTop>
+        <ScrollToTop/>
       </Router>
     </div>
   );
