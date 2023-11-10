@@ -13,6 +13,7 @@ function Menu() {
         {MenuList.map((menuItem, key) => {
           return (
             <MenuItem
+              id = {menuItem.id} // so that the id can increase per each click of the add to cart button
               key={key}
               image={menuItem.image}
               price={menuItem.price}

@@ -1,5 +1,6 @@
 [
   {
+      "id": 1,
       "name": "Framework 16",
       "price": "1200",
       "detail": "Modular",
@@ -8,7 +9,8 @@
       "Deal": false,
       "Page": "/Laptops"
   },
-  {
+  { 
+      "id": 2,
       "name": "Lenovo Legion Pro",
       "price": "1050",
       "detail": "16gb DDR4",
@@ -18,6 +20,7 @@
       "Page": "/Laptops"
   },
   {
+      "id" : 3,
       "name": "Huawei MateBook",
       "price": "1150",
       "detail": "2-in-1 Notebook",
@@ -26,7 +29,8 @@
       "Deal": false,
       "Page": "/Laptops"
   },
-  {
+  { 
+      "id" : 4,
       "name": "HP EliteBook",
       "price": "1500",
       "detail": "16gb DDR4",
@@ -36,6 +40,7 @@
       "Page": "/Laptops"
   },
   {
+      "id" : 5,
       "name": "Microsoft Surface",
       "price": "1145",
       "detail": "14.4\" QHD Touchscreen",
@@ -45,6 +50,7 @@
       "Page": "/Laptops"
   },
   {
+      "id" : 6,
       "name": "Asus ZenBook",
       "price": "1200",
       "detail": "Intel Core i7",
@@ -54,6 +60,7 @@
       "Page": "/Laptops"
   },
   {
+      "id" : 7,
       "name": "ACER NITRO 5",
       "price": "1200",
       "detail": "15.6 inch",
@@ -63,6 +70,7 @@
       "Page": "/Laptops"
   },
   {
+      "id" : 8,
       "name": "Dell XPS 13",
       "price": "1700",
       "detail": "Tele 4k Touchscreen",
@@ -72,6 +80,7 @@
       "Page": "/Laptops"
   },
   {
+      "id" : 9,
       "name": "ASUS ROG Laptop",
       "price": "1400",
       "detail": "Ram ",
@@ -81,6 +90,7 @@
       "Page": "/Laptops"
   },
   {
+      "id" : 10,
       "name": "HP Spectre",
       "price": "985",
       "detail": "RAM",
@@ -90,6 +100,7 @@
       "Page": "/Laptops"
   },
   {
+      "id" : 11,
       "name": "Headphones",
       "price": "50",
       "detail": "Sounds Nice",
@@ -99,6 +110,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 12,
       "name": "Bose Headphone",
       "price": "245",
       "detail": "Heavy Basse",
@@ -108,6 +120,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 13,
       "name": "AirPods Max",
       "price": "549",
       "detail": "High-Fidelity Audio",
@@ -117,6 +130,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 14,
       "name": "Beats Studio Pro",
       "price": "299",
       "detail": "Noise Cancelling",
@@ -126,6 +140,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 15,
       "name": "JBL Live 660NC",
       "price": "199",
       "detail": "Active Noise Cancelling",
@@ -135,6 +150,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 16,
       "name": "Jlab Studio Pro",
       "price": "79",
       "detail": "Wireless On-Ear",
@@ -144,6 +160,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 17,
       "name": "Logitech Zone Vibe 100",
       "price": "89",
       "detail": "Wired Headset",
@@ -153,6 +170,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 18,
       "name": "SkullCandy Hush",
       "price": "99",
       "detail": "Over-Ear Wireless",
@@ -162,6 +180,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 19,
       "name": "Sony WH-1000XM4B",
       "price": "348",
       "detail": "Noise Cancelling",
@@ -171,6 +190,7 @@
       "Page": "/Accessories"
   },
   {
+      "id" : 20,
       "name": "BLU G53",
       "price": "179",
       "detail": "Smartphone",
@@ -180,6 +200,7 @@
       "Page": "/Phones"
   },
   {
+      "id" : 21,
       "name": "Boost Moto G",
       "price": "149",
       "detail": "Smartphone",
@@ -189,6 +210,7 @@
       "Page": "/Phones"
   },
   {
+      "id" : 22,
       "name": "Galaxy A03",
       "price": "129",
       "detail": "Smartphone",
@@ -198,6 +220,7 @@
       "Page": "/Phones"
   },
   {
+      "id" : 23,
       "name": "Motorolla G Plus",
       "price": "229",
       "detail": "Smartphone",
@@ -207,6 +230,7 @@
       "Page": "/Phones"
   },
   {
+      "id" : 24,
       "name": "OneNote",
       "price": "279",
       "detail": "Smartphone",
@@ -216,6 +240,7 @@
       "Page": "/Phones"
   },
   {
+      "id" : 25,
       "name": "Samsung Flip Z",
       "price": "1199",
       "detail": "Foldable Smartphone",
@@ -225,6 +250,7 @@
       "Page": "/Phones"
   },
   {
+      "id" : 26,
       "name": "Pixel 7 Pro",
       "price": "999",
       "detail": "Google Smartphone",
@@ -234,6 +260,7 @@
       "Page": "/Phones"
   },
   {
+      "id" : 27,
       "name": "iPhone 15",
       "price": "1000",
       "detail": "New Camera",
@@ -243,6 +270,7 @@
       "Page": "/Phones"
   },
   {
+      "id" : 28,
       "name": "Samsung Galaxy",
       "price": "900",
       "detail": "Nice Phone",

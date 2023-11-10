@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import productData from "../../utils/MenuList.json"
 import SearchIcon from "@mui/icons-material/Search"
 import logo from '../../assets/gg_Logo.png';
+import { ShoppingCart } from "phosphor-react";
 
 const Header = () => {
   // const dropdownOptions = ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
@@ -37,7 +38,7 @@ const Header = () => {
           </div>
 
           <h3>Contact Us</h3>
-          <h3>Shopping Cart</h3>
+          <Link to="/cart"><ShoppingCart size={21}/></Link>
         </div>
       </div>
     </section>
