@@ -1,3 +1,4 @@
+
 .cart {
   display: flex;
   flex-direction: column;
@@ -17,7 +18,12 @@
 }
 
 .cartItem img {
-  width: 200px;
+  max-width: 200px;
+  max-height: 200px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  object-fit: contain;
+
 }
 
 .cartItem .description {
@@ -30,7 +36,9 @@
   text-align: center;
   font-weight: bolder;
 }
-
+.checkout{
+  text-align: center;
+}
 .checkout button {
   width: 150px;
   height: 50px;
@@ -40,4 +48,18 @@
   border-radius: 8px;
   margin: 10px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
+.checkout button:hover {
+  background-color: #333;
+}
+.menuTitle{
+  padding-top: 1rem;
+}
+.emptyCart{
+  padding: 1rem;
+}
+.subtotalText{
+  font-size:1.5rem;
+}
+
