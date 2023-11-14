@@ -11,7 +11,7 @@ export const Cart = () => {
   const { cartItems, getTotalCartAmount } = useContext(ShopContext);
   const totalAmount = getTotalCartAmount()
 
-  const navigate = userNavigate()
+  const navigate = useNavigate()
   return <div className="cart">
     <div>
     <h1 className="menuTitle"> Your Cart Items</h1>
@@ -27,12 +27,14 @@ export const Cart = () => {
 
          <div className="checkout">
           
-          <p> Subtotal: ${totalAmount}</p>
-          <button onClick={() => navigate(<Products />)}> Continue Shopping </button>
-          <button> Checkout </button>
+          <p className ='subtotalText'> Subtotal: ${totalAmount}</p>
+          <button className= 'checkoutButtons' onClick={() => navigate('/products')}> Continue Shopping </button>
+          
+            <button className= 'checkoutButtons'> Checkout 
+          </button>
         </div>
           ) : (
-            <h1> Your Cart is Empty</h1>
+            <h1 class='emptyCart'> Your Cart is Empty</h1>
           )}
 
     </div>
