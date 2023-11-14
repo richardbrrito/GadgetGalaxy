@@ -12,7 +12,7 @@ export const CartItem = (props) => {
   const { id , name, price, detail, image } = props.data
   const { cartItems, addToCart, removeFromCart, updateCartItemCount} = useContext(ShopContext);
   return <div className="cartItem">
-    <img src={image}/> 
+    <img className= 'cartImage' src={image}/> 
     <div className="description">
       <p>
         {" "}
